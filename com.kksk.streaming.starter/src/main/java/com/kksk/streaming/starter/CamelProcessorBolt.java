@@ -16,6 +16,9 @@ import org.apache.storm.tuple.Values;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * 
+ */
 @SuppressWarnings("rawtypes")
 public class CamelProcessorBolt extends BaseRichBolt {
 	/** serialVersionUID */
