@@ -30,7 +30,9 @@ public abstract class BaseProcessingBolt<IN, OUT> extends BaseRichBolt {
 
 	protected abstract String inputFieldName();
 
-	protected abstract String outputFieldName();
+	protected String outputFieldName() {
+		return null;
+	}
 
 	@Override
 	public void prepare(Map conf, TopologyContext topologyContext, OutputCollector collector) {
